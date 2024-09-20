@@ -1,0 +1,24 @@
+CTF PTIT:
+A B C D E F G H
+A - B: A
+C - D: D
+
+A - E: A
+D - F: D
+Goi F(x) la so doi toi thieu can thiet de doi vo dich thi dau x tran
+F(x) = F(x - 1) + F(x - 2)
+F(1) = 2
+F(2) = 3
+F(3) = 5
+F(4) = 8
+F(5) = 13
+-> Tim x be nhat sao cho F(x) >= n
+
+Nghe si hai:
+a1 a2 a3 a4 Luffy Zoro
+0 a2 a3 a4 a1 a1
+0 0 a3-a2 a4 a1 a1
+
+min(a1 + 1, abs(a3 - a2) + a4)
+a1 + min(a2, a3)*2 + min(a1 + 1, abs(a3 - a2) + a4)
+
